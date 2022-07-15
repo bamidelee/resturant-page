@@ -1,0 +1,9 @@
+.contact{
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 53px;
+    box-shadow: inset 25px 25px 50px rgb(131, 12, 12),
+            inset -25px -25px 50px rgb(112, 10, 10);
+    height: 100%;
+    padding: 1rem;
+}

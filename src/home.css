@@ -1,0 +1,35 @@
+body{
+    background-color: red;
+}
+
+.gallery{
+    height: 35rem;
+    width: 40rem;
+    display: flex;
+  
+   
+}
+.image{
+    width: 0px;
+    height: 100%;
+    transition: all 2s cubic-bezier(0.04, 0.26, 0.18, 1.21);
+}
+.slide{
+    width: 100%;
+    transition: all 2s cubic-bezier(0.04, 0.26, 0.18, 1.21);
+}
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+.header{
+    font-size: 2rem;
+    align-self: end;
+    border-radius: 53px;
+    box-shadow: inset 25px 25px 50px rgb(131, 12, 12),
+            inset -25px -25px 50px rgb(112, 10, 10);
+    height: 100%;
+    text-align: center;
+}
